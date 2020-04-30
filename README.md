@@ -4,6 +4,8 @@ Diabetic Retinopathy is the leading cause of blindness in the working-age popula
 # Model Overview
 The model uses a VGG16 network with completely trainable parameters.
 
+<img src="images/summary.png">
+
 Optimizer-Adam(lr=0.0001 initialy,with rate decay)
 
 Loss=categorical_crossentropy
@@ -18,6 +20,9 @@ The Dataset is relatively small.
 Train Accuracy-0.99
 
 Val_Accuracy-0.79
+
+<img src="images/Loss.png">
+<img src="images/accuracy.png">
 
 # References
 Kaggle Kernels
